@@ -1,3 +1,5 @@
+'use client';
+
 import { Platform } from '@/data/platforms';
 
 interface CardProps {
