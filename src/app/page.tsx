@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 pb-8">
         {platformData.map((section) => (
           <Section key={section.id} section={section} />
         ))}

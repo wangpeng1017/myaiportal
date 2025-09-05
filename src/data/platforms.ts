@@ -19,7 +19,7 @@ export const platformData: Section[] = [
     platforms: [
       {
         id: 'ocr-standard',
-        name: '首届标准OCR',
+        name: '商品标签OCR',
         description: '对比人类型和计算机OCR识别的能力识别一张图片里面的多个标签',
         model: 'Gemini 2.5 pro、GLM-4V、百度OCR',
         link: 'https://democr.aifly.me/'
