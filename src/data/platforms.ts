@@ -54,7 +54,7 @@ export const platformData: Section[] = [
         id: 'digital-factory',
         name: '数字工厂一体化平台',
         description: '制造业数字化转型解决方案，包含生产管理、质量控制、设备监控等功能',
-        model: 'Gemini 2.5 pro、GLM-4V、百度OCR',
+        model: 'Gemini 2.5 pro',
         link: 'https://mom.aifly.me/login.html'
       },
       {
