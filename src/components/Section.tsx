@@ -19,8 +19,8 @@ export default function Section({ section }: SectionProps) {
         <div className="absolute -top-1 -right-2 w-1 h-1 bg-blue-500 rounded-full opacity-80 animate-pulse" style={{animationDelay: '0.5s'}}></div>
       </div>
 
-      {/* 使用更紧凑的5列网格布局，减小间距 */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+      {/* 调整网格布局以增加卡片宽度 */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {section.platforms.map((platform, index) => (
           <div
             key={platform.id}

@@ -20,7 +20,7 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <p className="text-slate-600 font-medium">
-              &copy; 2024 AI平台. 探索无限可能的人工智能世界.
+              &copy; 2025 AI平台. 探索无限可能的人工智能世界.
             </p>
             <div className="mt-4 flex justify-center space-x-2">
               <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
