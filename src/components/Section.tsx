@@ -9,14 +9,14 @@ export default function Section({ section }: SectionProps) {
   return (
     <div className="mb-10">
       <div className="relative mb-4">
-        <h2 className="text-2xl font-bold bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-2">
+        <h2 className="text-2xl font-bold bg-gradient-to-r from-slate-800 via-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">
           {section.title}
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
 
         {/* 装饰性背景 */}
         <div className="absolute -top-2 -left-4 w-2 h-2 bg-blue-400 rounded-full opacity-60 animate-pulse"></div>
-        <div className="absolute -top-1 -right-2 w-1 h-1 bg-purple-400 rounded-full opacity-80 animate-pulse" style={{animationDelay: '0.5s'}}></div>
+        <div className="absolute -top-1 -right-2 w-1 h-1 bg-blue-500 rounded-full opacity-80 animate-pulse" style={{animationDelay: '0.5s'}}></div>
       </div>
 
       {/* 使用更紧凑的5列网格布局，减小间距 */}
